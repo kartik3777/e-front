@@ -17,7 +17,7 @@ function ProductDetail() {
     // Fetch product details by id
     const fetchProduct = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/products/${id}`);
+        const response = await axios.get(`https://e-back-3rj7.vercel.app/products/${id}`);
         setProduct(response.data);
       } catch (error) {
         setError("Error fetching product details. Please try again later.");
