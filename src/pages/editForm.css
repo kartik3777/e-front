@@ -1,0 +1,53 @@
+.edit-form {
+    background-color: #f9f9f9; /* Light background */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding around the form */
+    max-width: 600px; /* Maximum width of the form */
+    margin: 20px auto; /* Center the form horizontally */
+    margin-top: 50px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .edit-form h3 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Darker text for better readability */
+  }
+  
+  .edit-form label {
+    display: block; /* Each label on a new line */
+    margin: 10px 0 5px; /* Spacing between labels and inputs */
+    font-weight: bold; /* Bold label text */
+    color: #333;
+  }
+  
+  .edit-form input,
+  .edit-form textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    margin-bottom: 15px; /* Space between inputs */
+  }
+  
+  .edit-form textarea {
+    height: 100px; /* Fixed height for textarea */
+  }
+  
+  .edit-form button {
+    background-color: #6715e2; /* Bootstrap primary color */
+    color: white; /* White text */
+    padding: 10px 15px; /* Button padding */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger text */
+    width: 100%; /* Full width buttons */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  .edit-form button:hover {
+    background-color: #5609c9; /* Darker blue on hover */
+  }
+  
